@@ -16,7 +16,7 @@ from manifestoo_core.odoo_series import (
     detect_from_addon_version as detect_odoo_series_from_addon_version,
 )
 
-from .compat import tomllib
+import tomllib
 
 METAPACKAGE_PATH = Path("setup") / "_metapackage"
 
